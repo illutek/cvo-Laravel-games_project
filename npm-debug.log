@@ -1,0 +1,82 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'rebuild', 'node-sass' ]
+2 info using npm@3.8.6
+3 info using node@v5.12.0
+4 info readInstalled object
+5 verbose rebuild path, id [ '/home/vagrant/sites/games-website/node_modules/node-sass',
+5 verbose rebuild   'node-sass@3.10.1' ]
+6 silly rebuild set [ '/home/vagrant/sites/games-website/node_modules/node-sass' ]
+7 info build /home/vagrant/sites/games-website/node_modules/node-sass
+8 info lifecycle node-sass@3.10.1~preinstall: node-sass@3.10.1
+9 silly lifecycle node-sass@3.10.1~preinstall: no script for preinstall, continuing
+10 info linkStuff node-sass@3.10.1
+11 silly linkStuff node-sass@3.10.1 has /home/vagrant/sites/games-website/node_modules as its parent node_modules
+12 verbose linkBins node-sass@3.10.1
+13 verbose link bins [ { 'node-sass': 'bin/node-sass' },
+13 verbose link bins   '/home/vagrant/sites/games-website/node_modules/.bin',
+13 verbose link bins   false ]
+14 verbose linkMans node-sass@3.10.1
+15 verbose rebuildBundles node-sass@3.10.1
+16 verbose rebuildBundles [ 'gaze',
+16 verbose rebuildBundles   'glob',
+16 verbose rebuildBundles   'globule',
+16 verbose rebuildBundles   'lodash',
+16 verbose rebuildBundles   'lodash.clonedeep',
+16 verbose rebuildBundles   'minimatch' ]
+17 verbose rebuild bundle /home/vagrant/sites/games-website/node_modules/node-sass/node_modules/globule
+18 info build /home/vagrant/sites/games-website/node_modules/node-sass/node_modules/globule
+19 silly gentlyRm /home/vagrant/sites/games-website/node_modules/.bin/node-sass is being purged
+20 verbose gentlyRm don't care about contents; nuking /home/vagrant/sites/games-website/node_modules/.bin/node-sass
+21 info lifecycle globule@1.0.0~preinstall: globule@1.0.0
+22 silly lifecycle globule@1.0.0~preinstall: no script for preinstall, continuing
+23 info linkStuff globule@1.0.0
+24 silly linkStuff globule@1.0.0 has /home/vagrant/sites/games-website/node_modules/node-sass/node_modules as its parent node_modules
+25 verbose linkBins globule@1.0.0
+26 verbose linkMans globule@1.0.0
+27 verbose rebuildBundles globule@1.0.0
+28 verbose rebuildBundles [ 'glob' ]
+29 info lifecycle globule@1.0.0~install: globule@1.0.0
+30 silly lifecycle globule@1.0.0~install: no script for install, continuing
+31 info lifecycle globule@1.0.0~postinstall: globule@1.0.0
+32 silly lifecycle globule@1.0.0~postinstall: no script for postinstall, continuing
+33 verbose rebuild bundle /home/vagrant/sites/games-website/node_modules/node-sass/node_modules/lodash
+34 info build /home/vagrant/sites/games-website/node_modules/node-sass/node_modules/lodash
+35 info lifecycle lodash@4.9.0~preinstall: lodash@4.9.0
+36 silly lifecycle lodash@4.9.0~preinstall: no script for preinstall, continuing
+37 info linkStuff lodash@4.9.0
+38 silly linkStuff lodash@4.9.0 has /home/vagrant/sites/games-website/node_modules/node-sass/node_modules as its parent node_modules
+39 verbose linkBins lodash@4.9.0
+40 verbose linkMans lodash@4.9.0
+41 verbose rebuildBundles lodash@4.9.0
+42 info lifecycle lodash@4.9.0~install: lodash@4.9.0
+43 silly lifecycle lodash@4.9.0~install: no script for install, continuing
+44 info lifecycle lodash@4.9.0~postinstall: lodash@4.9.0
+45 silly lifecycle lodash@4.9.0~postinstall: no script for postinstall, continuing
+46 verbose rebuild bundle /home/vagrant/sites/games-website/node_modules/node-sass/node_modules/minimatch
+47 info build /home/vagrant/sites/games-website/node_modules/node-sass/node_modules/minimatch
+48 info lifecycle minimatch@3.0.3~preinstall: minimatch@3.0.3
+49 silly lifecycle minimatch@3.0.3~preinstall: no script for preinstall, continuing
+50 info linkStuff minimatch@3.0.3
+51 silly linkStuff minimatch@3.0.3 has /home/vagrant/sites/games-website/node_modules/node-sass/node_modules as its parent node_modules
+52 verbose linkBins minimatch@3.0.3
+53 verbose linkMans minimatch@3.0.3
+54 verbose rebuildBundles minimatch@3.0.3
+55 info lifecycle minimatch@3.0.3~install: minimatch@3.0.3
+56 silly lifecycle minimatch@3.0.3~install: no script for install, continuing
+57 info lifecycle minimatch@3.0.3~postinstall: minimatch@3.0.3
+58 silly lifecycle minimatch@3.0.3~postinstall: no script for postinstall, continuing
+59 verbose stack Error: EPROTO: protocol error, symlink '../node-sass/bin/node-sass' -> '/home/vagrant/sites/games-website/node_modules/.bin/node-sass'
+59 verbose stack     at Error (native)
+60 verbose cwd /home/vagrant/sites/games-website
+61 error Linux 4.4.0-22-generic
+62 error argv "/usr/bin/nodejs" "/usr/bin/npm" "rebuild" "node-sass"
+63 error node v5.12.0
+64 error npm  v3.8.6
+65 error path ../node-sass/bin/node-sass
+66 error code EPROTO
+67 error errno -71
+68 error syscall symlink
+69 error EPROTO: protocol error, symlink '../node-sass/bin/node-sass' -> '/home/vagrant/sites/games-website/node_modules/.bin/node-sass'
+70 error If you need help, you may report this error at:
+70 error     <https://github.com/npm/npm/issues>
+71 verbose exit [ -71, true ]
